@@ -1,0 +1,2 @@
+# myNativeHtmlPage
+Blog example page
