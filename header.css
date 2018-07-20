@@ -1,0 +1,148 @@
+.custom-header{
+    background-color: #e9e9e9;
+    height: 5%;
+    overflow: hidden;
+}
+
+.full-screen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo
+{
+    height: 120px;
+    width: auto;
+}
+
+/*#region Top header*/
+.top-head
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.socials i{
+    font-size: 25px;
+    cursor: pointer;
+}
+/*#endregion Top header*/
+
+
+/*#region Search*/
+.search
+{
+    padding-right: 7px;
+    display: flex;
+    justify-content: right;
+}
+
+.search button
+{
+    border-radius: 0px 4px 4px 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search input[type=text]{
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+.search button:hover
+{
+    background: #ccc;
+}
+
+/*#endregion Search*/
+
+/*#region Bottom header*/
+.bottom-head
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.bottom-head ul
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bottom-head li
+{
+    cursor: pointer;
+    font-size:20px; 
+    padding-left: 30px;
+}
+/*#endregion Bottom header*/
+
+/*#region Mobile*/
+.mobile-screen{
+    display: none;
+}
+
+.mobile-screen > div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.mobile-screen .mobile-logo{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.mobile-screen input{
+    width: 0;
+    padding: 0!important;
+}
+.mobile-screen .search button{
+    background: #e9e9e9;
+}
+
+.menu{
+    align-items: center;
+    color: azure;
+    font-size:17px;
+    padding: 0px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.menu i{
+    color: #000;
+    cursor: pointer;    
+}
+.menu i, .search button i{
+    font-size: 22px;
+}
+/*#endregion Mobile*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
+
+@media(max-width:400px) {
+    .full-screen{
+        display: none;
+    }
+    .mobile-screen{
+        display: block;
+    }
+    
+  }
