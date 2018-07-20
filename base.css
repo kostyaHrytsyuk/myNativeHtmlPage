@@ -8,3 +8,6 @@ body{
     font-weight: 400;
 }
 
+img{
+   display: block; 
+}
