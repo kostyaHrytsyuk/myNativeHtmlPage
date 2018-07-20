@@ -1,11 +1,13 @@
-  .blog {
+  .blog 
+  {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     grid-gap: 15px;
     justify-content: space-between;
   }
 
-  .card {
+  .card 
+  {
     border: solid 1px #dedede;
     display: flex;
     align-items: center;
@@ -13,39 +15,54 @@
     flex-direction: column;
   }
 
-  .card-img{
-      max-width: 100%;
-      flex: 1;
-      border-bottom: solid 1.5px blanchedalmond;
-      transition: transform .2s;
-    }
+  .card-img
+  {
+    max-width: 100%;
+    flex: 1;
+    border-bottom: solid 1.5px blanchedalmond;
+    transition: transform .2s;
+  }
 
-    .card-img:hover
-    {
-        transform: scale(1.01);
-    }
+  .card-img:hover
+  {
+    transform: scale(1.01);
+  }
 
-  .card-info {
+  .card-info
+  {
+    width: 100%;
     padding: 8px;
   }
   
-  .card-title {
+  .card-title
+  {
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 5px;
     margin-top: 5px; 
   }
   
-  .card-content {
+  .card-content 
+  {
     margin-bottom: 10px;
   }
+
+  .card-content span
+  {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
   
-  .card-author {
+  .card-author
+  {
     color: gray;
     margin-bottom: 7px;
   }
   
-  .card-footer {
+  .card-footer
+  {
     color: gray;
     padding-top: 10px;
     border-top: solid 1px #ededed;
@@ -53,7 +70,8 @@
     justify-content: space-around;
   }
   
-  .card:hover * {
+  .card:hover * 
+  {
     background: #444;
     color: white;
   }
