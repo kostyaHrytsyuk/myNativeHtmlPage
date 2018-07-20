@@ -1,0 +1,8 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
