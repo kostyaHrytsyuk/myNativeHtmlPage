@@ -9,8 +9,6 @@ body{
 }
 
 .custom-header{
-    display: flex;
-    justify-content: space-between;
     background-color: #e9e9e9;
     height: 5%;
     overflow: hidden;
@@ -21,14 +19,18 @@ body{
     cursor: pointer;
 }
 
-
-
 .main-header{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-
+.full-screen{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-screen{
+    display: none;
+}
 .logo
 {
     height: 120px;
@@ -97,8 +99,6 @@ body{
     background: #ccc;
 }
 .menu{
-    display: flex;
-    visibility: hidden;
     align-items: center;
     color: azure;
     font-size:17px;
@@ -107,18 +107,55 @@ body{
     text-decoration: none;
 }
 
+
+
+
+/* Mobil styles */
+.mobile-screen > div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.mobile-screen .mobile-logo{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.mobile-screen input{
+    width: 0;
+    padding: 0!important;
+}
+.mobile-screen .search button{
+    background: #e9e9e9;
+}
 .menu i{
-    color: red;
+    color: #000;
+    cursor: pointer;    
+}
+.menu i, .search button i{
+    font-size: 22px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
 
-/* @media(min-width:768px) {
-    .custom-header {
+@media(max-width:400px) {
+    /* .custom-header {
       -webkit-transition: all .35s;
       -moz-transition: all .35s;
       transition: all .35s;
       padding: 15px 0;
+    } */
+    /* .menu{
+        display: block;
+    }
+    .bottom-head ul{
+        display: none;
+    } */
+    .full-screen{
+        display: none;
+    }
+    .mobile-screen{
+        display: block;
     }
     
-  } */
+  }
