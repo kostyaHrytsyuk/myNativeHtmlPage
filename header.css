@@ -36,9 +36,6 @@
     font-size: 25px;
     cursor: pointer;
 }
-/*#endregion Top header*/
-
-
 /*#region Search*/
 .search
 {
@@ -69,6 +66,9 @@
 }
 
 /*#endregion Search*/
+
+/*#endregion Top header*/
+
 
 /*#region Bottom header*/
 .bottom-head
@@ -135,14 +135,3 @@
 }
 /*#endregion Mobile*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
-
-@media(max-width:400px) {
-    .full-screen{
-        display: none;
-    }
-    .mobile-screen{
-        display: block;
-    }
-    
-  }

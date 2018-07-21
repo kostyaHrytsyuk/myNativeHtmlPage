@@ -1,0 +1,23 @@
+aside
+{
+    grid-area: aside;
+}
+
+.author-image{
+    height: auto;
+    max-height: 130px;
+    min-height: 100px;
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+}
+
+.author-block
+{
+    justify-content: space-between;
+    margin-top:7px;
+    display: grid;
+    grid-template-columns: 33% 63%;
+    grid-gap: 5px; 
+}
+
