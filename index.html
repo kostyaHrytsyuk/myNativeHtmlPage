@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="aside.css">
     <title>Blog page</title>
   </head>
-  <body>
-      <header class="custom-header">
+  <body >
+    <header class="custom-header">
         <div class="full-screen">
           <img class="logo" src="logo.png">
           <div class="main-header">
@@ -54,16 +55,21 @@
           </div>
           <img class="mobile-logo" src="icon.png" alt="">
         </div>
-      </header>
-      <div class="blog">
-          <div class="card">
+    </header>
+    <div class="container">
+    <div class="blog">
+      <div class="card">
             <img class="card-img" src="gitImg.jpg" alt="nature">
             <div class="card-info">
               <h3 class="card-title">Git Hub and how to use it</h3>
               <div class="card-author">by Volodymyr Kushnir</div>
-              <div class="card-content">Introduction in Git technology and creating firts own repository with resume</div>
+              <div class="card-content">
+                <span class="eclipse-span">
+                Introduction in Git technology and creating first own repository with resume
+                </span>
+              </div>
               <div class="card-footer">
-                <span class="comments">
+                <span >
                   <i class="fas fa-comment-alt"></i>
                   <span>7</span>
                 </span>
@@ -74,19 +80,19 @@
                 <span class="post-time">07-05-2018</span>
               </div>  
             </div>    
-          </div>
-          <div class="card">
+      </div>
+      <div class="card">
             <img class="card-img" src="netcorelarge.png" alt="nature">
             <div class="card-info">
               <h3 class="card-title">.NET Core</h3>
               <div class="card-author">by Myroslav Dmytrus</div>
               <div class="card-content">
-                <span>
+                <span class="eclipse-span">
                 Getting known with ASP.NET Core WebApi. Creating API based on previous task.
                 </span>
               </div>
               <div class="card-footer">
-                <span class="comments">
+                <span >
                   <i class="fas fa-comment-alt"></i>
                   <span>14</span>
                 </span>
@@ -97,15 +103,19 @@
                 <span class="post-time">12-05-2018</span>
               </div>  
             </div>    
-          </div>
-          <div class="card">
+      </div>
+      <div class="card">
             <img class="card-img" src="LinqViaCSharp.jpg" alt="nature">
             <div class="card-info">
               <h3 class="card-title">.NET Data Sructures & LINQ</h3>
               <div class="card-author">by Maxim Goncharuk</div>
-              <div class="card-content">History of data structures in .NET platform. Presentation functions of LINQ.</div>
+              <div class="card-content">
+                <span class="eclipse-span">
+                  History of data structures in .NET platform. Presentation functions of LINQ.
+                </span>
+              </div>
               <div class="card-footer">
-                <span class="comments">
+                <span >
                   <i class="fas fa-comment-alt"></i>
                   <span>12</span>
                 </span>
@@ -116,20 +126,20 @@
                 <span class="post-time">07-07-2018</span>
               </div>  
             </div>    
-          </div>
-          <div class="card">
+      </div>
+      <div class="card">
             <img class="card-img" src="entityFramework.jpg" alt="nature">
             <div class="card-info">
               <h3 class="card-title">Entity Framework</h3>
               <div class="card-author">by Dmitriy Beseda</div>
               <div class="card-content">
-                <span>
+                <span class="eclipse-span">
                   Object Relational Mapping in .NET CORE. Integration Entity Framework in solution
                 </span>
               </div>
               
                 <div class="card-footer">
-                <span class="comments">
+                <span >
                     <i class="fas fa-comment-alt"></i>
                     <span>9</span>
                 </span>
@@ -140,19 +150,19 @@
                 <span class="post-time">12-07-2018</span>
               </div>  
             </div>    
-          </div>
-          <div class="card">
+      </div>
+      <div class="card">
             <img class="card-img" src="tdd.png" alt="nature">
             <div class="card-info">
               <h3 class="card-title">.NET Code Testing</h3>
               <div class="card-author">by Kirill Miroshnichenko</div>
               <div class="card-content">
-                <span>
+                <span class="eclipse-span">
                   Test Driven Development - is a software development process baseb on testing
                 </span>
               </div>
               <div class="card-footer">
-                  <span class="comments">
+                  <span >
                     <i class="fas fa-comment-alt"></i>
                     <span>8</span>
                   </span>
@@ -163,19 +173,19 @@
                   <span class="post-time">15-07-2018</span>               
               </div>  
             </div>    
-          </div>
-          <div class="card">
+      </div>
+      <div class="card">
               <img class="card-img" src="html-css.jpg" alt="nature">
               <div class="card-info">
                 <h3 class="card-title">HTML & CSS</h3>
                 <div class="card-author">by Alik Rakhmonov</div>
                 <div class="card-content">
-                  <span>
+                  <span class="eclipse-span">
                     Description of HTML base elements and paradigms. CSS approaches.
                   </span>
                 </div>
                 <div class="card-footer">
-                  <span class="comments">
+                  <span >
                     <i class="fas fa-comment-alt"></i>
                     <span>4</span>
                   </span>
@@ -186,8 +196,112 @@
                   <span class="post-time">18-07-2018</span>
                 </div>                  
               </div>  
-          </div>    
-        </div>
+      </div>    
+    </div>
+
+    <aside>
+      <div class="author-block">
+          <img class="author-image" src="bjarne.jpg">
+          <div>
+            <p>
+              <b>Bjarne Stroustrup</b>
+              <br/>Danish computer scientist, who created the C++ programming language
+            </p>
+          </div>
       </div>
+      <div class="author-socials socials">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-twitter-square"></i>
+      </div>
+      <div class="subscribe">
+        <div class="subscribe-inputs">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="E-mail">
+        </div>          
+        <button class="subscribe button">SUBSCRIBE</button>
+      </div>
+      <div class="search">
+          <input type="text" placeholder="Search">
+          <button ><i class="fa fa-search"></i></button>
+      </div>
+      <div class="tag-block">
+          <a class="tag" role="button">
+              <span>C++</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>BSA2018</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>HTML</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>ASP.NET</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>CSS</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>.NET</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>EF Core</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+          <a class="tag" role="button">
+              <span>LINQ</span>
+              <div class="icon">
+                <i class="fas fa-times"></i>
+              </div>
+          </a>
+      </div> 
+      <div class="comments-block">
+        <img class="comment-icon" src="birds/redbird.png">
+        <div>
+            <p>
+              <b>Yaroslava Avgust</b>
+              <br/>
+              <span class="eclipse-span">
+                Great content! I liked it so much. Waiting for new lessons!
+              </span>
+            </p>
+         
+        
+          </div>
+          <img class="comment-icon" src="birds/angry-bird-yellow-icon.png">
+          <div>
+              <p>
+                <b>Aleksandr Mariya</b>
+                <br/>
+                <span class="eclipse-span">
+                  Awesome info! Thanks guys!
+                </span>
+              </p>
+           
+          
+            </div>
+        </div>
+    </aside>
+  </div>
   </body>
 </html>
