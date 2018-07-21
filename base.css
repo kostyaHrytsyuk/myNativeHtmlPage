@@ -38,6 +38,16 @@ img{
    display: block; 
 }
 
+.footer-items
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
 
 @media(max-width:860px) {
