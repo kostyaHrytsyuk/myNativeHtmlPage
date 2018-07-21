@@ -4,10 +4,7 @@
     overflow: hidden;
 }
 
-.full-screen{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .main-header{
     width: 100%;
@@ -96,9 +93,7 @@
 /*#endregion Bottom header*/
 
 /*#region Mobile*/
-.mobile-screen{
-    display: none;
-}
+
 
 .mobile-screen > div{
     display: flex;

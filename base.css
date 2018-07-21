@@ -8,6 +8,8 @@ html,body{
     margin: auto;
 }
 
+
+
 body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif !important;
@@ -21,6 +23,15 @@ body{
     grid-template-areas: "blog aside";
     grid-template-columns: 70% 29%;
     grid-gap: 10px; 
+}
+
+.mobile-screen{
+    display: none;
+}
+
+.full-screen{
+    display: flex;
+    justify-content: space-between;
 }
 
 img{
@@ -37,13 +48,11 @@ img{
         grid-template-columns: 100%;
     }
     
-    .full-screen{
-        display: none;
-    }
     .mobile-screen{
         display: block;
     }
-    
-    
 
+    .full-screen{
+        display: none;
+    }
   }
