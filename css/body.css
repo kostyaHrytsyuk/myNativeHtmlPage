@@ -1,0 +1,78 @@
+  .blog 
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 15px;
+    justify-content: space-between;
+    grid-area:blog; 
+  }
+
+  .card 
+  {
+    border: solid 1px #dedede;
+    display: flex;
+    align-items: center;
+    border-radius: 4px; 
+    flex-direction: column;
+  }
+
+  .card-img
+  {
+    max-width: 100%;
+    flex: 1;
+    border-bottom: solid 1.5px blanchedalmond;
+    transition: transform .2s;
+  }
+
+  .card-img:hover
+  {
+    transform: scale(1.01);
+  }
+
+  .card-info
+  {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .card-title
+  {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+  }
+  
+  .card-content 
+  {
+    margin-bottom: 10px;
+  }
+
+  .eclipse-span
+  {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .card-author
+  {
+    color: gray;
+    margin-bottom: 7px;
+  }
+  
+  .card-footer
+  {
+    color: gray;
+    padding-top: 10px;
+    border-top: solid 1px #ededed;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card:hover * 
+  {
+    background: #444;
+    color: white;
+  }
