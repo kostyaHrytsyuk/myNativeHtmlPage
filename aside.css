@@ -21,3 +21,36 @@ aside
     grid-gap: 5px; 
 }
 
+.subscribe{
+    margin-top: 8px; 
+}
+
+.subscribe-inputs{
+    border-radius:3px; 
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.subscribe input[type=text]{
+    border-radius:3px;
+    margin: 3px; 
+}
+
+.subscribe button{
+    padding: 10px 30px;
+    outline: none;
+    background-color: #5c70df;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #95a5a6;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+.subscribe button:hover{
+    background-color: #7d89cc;
+}
