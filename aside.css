@@ -21,6 +21,11 @@ aside
     grid-gap: 5px; 
 }
 
+.author-socials{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
 .subscribe{
     margin-top: 8px; 
 }
@@ -141,5 +146,19 @@ aside .search button
 .tag:active{
     opacity: 1;
 }
-
 /*#endregion tag */
+
+.comments-block{
+    justify-content: space-between;
+    margin-top:7px;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-gap: 5px; 
+}
+
+.comment-icon{
+    margin-top:25px; 
+    width: 100%;
+    height: auto;
+    border-radius:50%; 
+}
